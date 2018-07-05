@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import axios from 'axios';
+// import action creator
 import { Begin_GET_POSTS, GET_ERROR } from '../../reducers';
 
 import { Table } from 'antd'; 
